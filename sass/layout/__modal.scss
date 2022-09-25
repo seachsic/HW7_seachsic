@@ -52,6 +52,13 @@ input {
     outline: transparent;
 }
 
+.modal__span:hover,
+.modal__span:focus {
+    color: var(--main-clr);
+    fill: var(--main-clr);
+
+}
+
 .field:hover,
 .field:focus {
     border: 1px solid var(--main-clr);
@@ -78,6 +85,8 @@ input {
     left: 12px;
     transform: translateY(-50%);
 }
+
+
 
 .field:focus~.svg__icon {
     fill: var(--main-clr);
@@ -131,6 +140,7 @@ input {
 
 .treaty__link {
     color: var(--main-clr);
+    padding-left: 5px;
 }
 
 .check__btn {
